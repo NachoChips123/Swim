@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Swimming Hobby</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+			background-color: #00FFFF;
+                        
+		}
+		header {
+			background-color: #fff;
+			padding: 5px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+		nav li {
+			margin-right: 20px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			font-size: 18px;
+			font-weight: bold;
+			transition: all 0.3s ease-in-out;
+		}
+		nav a:hover {
+			color: #0080ff;
+		}
+		.hero {
+			background-image: url(swimming-pool.jpg);
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			color: #fff;
+			padding: 50px;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+		}
+		.hero h1 {
+			font-size: 72px;
+                        
+			margin: 0;
+		}
+		main {
+			padding: 50px;
+			background-color: #fff;
+			box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+			margin-top: -50px;
+			position: relative;
+			z-index: 1;
+		}
+		h2 {
+			font-size: 32px;
+			margin-top: 0;
+		}
+		p {
+			font-size: 23px;
+			line-height: 1.5;
+		}
+		ul {
+			font-size: 23px;
+			line-height: 1.5;
+			list-style: disc;
+			margin-left: 20px;
+		}
+                #gallery {
+                        font-size: 36px;
+                        padding: 50px 0;
+                        text-align: center;
+                }
+
+               .gallery {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               align-items: center;
+               }
+
+               .gallery-item {
+                margin: 10px;
+               }
+
+               .gallery-item img {
+               width: 420px;
+               height: 420px;
+               object-fit: cover;
+               }
+               .gallery1 {
+               display: flex;
+               flex-wrap: wrap;
+               justify-content: center;
+               align-items: center;
+               }
+
+               .gallery-item1 {
+                margin: 10px;
+               }
+
+              .gallery-item1 img {
+               width: 1200px;
+               height: 420px;
+               object-fit: cover;
+               align-items: center;
+               }
+               #contact {
+  padding: 50px 0;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 150px;
+}
+
+input[type="submit"] {
+  background-color: #00FFFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #008080;
+}
+
+.contact-info {
+  max-width: 500px;
+  margin: 50px auto 0;
+}
+
+.contact-info h2 {
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.contact-info p {
+  margin: 10px;
+  font-size: 21px;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-info i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+ 
+	</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#swimming-styles">Swimming Styles</a></li>
+				<li><a href="#training">Training</a></li>
+				<li><a href="#competitions">Competitions</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="hero">
+			<h1>Swimming</h1>
+			<p>Swimming is my passion. I love the water and the feeling of gliding through it.</p>
+		</div>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>My name is Kaawache Rami and I've been swimming for roughly around 6 years now. I started swimming in 2018 and since then, it's been my favorite hobby.</p>
+		</section>
+		<section id="swimming-styles">
+			<h2>Swimming Styles</h2>
+			<p>There are four main swimming styles:</p>
+			<ul>
+				<li><a href="#freestyle">Freestyle</a></li>
+				<li><a href="#breaststroke">Breaststroke</a></li>
+				<li><a href="#backstroke">Backstroke</a></li>
+				<li><a href="#butterfly">Butterfly</a></li>
+			</ul>
+			<p>My favorite swimming style is freestyle because I love the feeling of speed and the rhythm of the stroke.</p>
+		</section>
+		<section id="training">
+			<h2>Training</h2>
+			<p>Swimming requires a lot of practice and dedication. I swim twice a week and my training sessions usually last two hours. My training routine includes:</p>
+			<ul>
+				<li>Warm-up exercises</li>
+				<li>Drills to improve technique</li>
+				<li>Endurance training</li>
+				<li>Cool-down exercises</li>
+			</ul>
+		</section>
+		<section id="competitions">
+			<h2>Competitions</h2>
+			<p>1st place in the 50m freestyle at the regional championships</p>
+				<p>2nd place in the 100m butterfly at the state championships</p>
+				<p>3rd place in the 200m freestyle relay at the national championships</p>                
+   
+                
+                 <section id="freestyle">
+                <h2>Freestyle</h2>
+                <div class="gallery1">
+                <div class="gallery-item1">
+                <img src="freestyle.jpg" alt="Freestyle swimming">
+                </div>
+                </div>
+                <p>Freestyle, also known as front crawl, is the fastest and most efficient of the four competitive swimming strokes. It is characterized by the alternating arm stroke and the flutter kick.</p>
+                </section>            
+
+                 <section id="breaststroke">
+      <h2>Breaststroke</h2>
+      <div class="gallery1">
+      <div class="gallery-item1"> 
+      <img src="breaststroke.jpg" alt="Breaststroke swimming">
+      </div>
+      </div>
+      <p>Breaststroke is a swimming style that is popular among beginners and recreational swimmers. It is characterized by the frog-like leg kick and the simultaneous arm movements.</p>
+    </section>
+
+                 <section id="backstroke">
+      <h2>Backstroke</h2>
+      <div class="gallery1">
+      <div class="gallery-item1"> 
+      <img src="backstroke.jpg" alt="Backstroke swimming">
+      </div>
+      </div>
+      <p>Backstroke is a swimming style where the swimmer lies on their back and swims with an alternating arm stroke and flutter kick. It is a popular recreational and competitive swimming style.</p>
+    </section>
+
+                 <section id="butterfly">
+      <h2>Butterfly</h2>
+      <div class="gallery1">
+      <div class="gallery-item1">      
+      <img src="butterfly.jpg" alt="Butterfly swimming">
+      </div>
+      </div>
+      <p>Butterfly is the most difficult of the four competitive swimming strokes. It is characterized by the simultaneous arm stroke and dolphin kick. It requires a great deal of upper body strength and flexibility.</p>
+    </section>
+
+                   <section id="gallery">
+                        <h1>Gallery</h1>
+                  <div class="gallery">
+                  <div class="gallery-item">
+                        <img src="image1.jpg" alt="Swimming Image 1">
+                  </div>
+                  <div class="gallery-item">
+                        <img src="image2.jpg" alt="Swimming Image 2">
+                  </div>
+                  <div class="gallery-item">
+                        <img src="image3.jpg" alt="Swimming Image 3">
+                  </div>
+                  </div>
+                </section>
+  <section id="contact">
+  <h2>Contact me</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Send">
+  </form>
+
+  <div class="contact-info">
+    <h2>Contact Information</h2>
+    <p><i class="fa fa-map-marker"></i>Debrecen, Kassai út 26, 4028</p>
+    <p><i class="fa fa-envelope"></i>swimming@unideb.com</p>
+    <p><i class="fa fa-phone"></i>+36 20 123 5432</p>
+  </div>
+</section>
